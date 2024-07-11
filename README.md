@@ -1,4 +1,4 @@
-# barbershop-app
-An test app where you can find barbershops near you and book an appointment for a haircut and shave.
+# Barbershop App ( Study only )
+A test application where you can find barbershops near you and make an appointment for a service.
 
-# I'm using this project to learn about java in back-end and react for front-end.
+### NOTE: I'm using this project to learn more about git and github, also taking the opportunity to learn about java (back-end) and react (front-end).
