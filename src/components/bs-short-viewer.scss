@@ -1,0 +1,92 @@
+.bs-short-viewer-content {
+  font-family: "Roboto", sans-serif;
+  background-color: #191c23;
+  border: 2px solid #3f3f3f;
+  border-radius: 15px;
+  min-width: 325px;
+
+  padding: 10px 10px 5px 10px;
+
+  .bs-svc-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .bs-svc-icon,
+  .bs-svc-icon * {
+    height: 22px;
+    width: 22px;
+
+    fill: #7cbef3;
+  }
+
+  .bs-svc-title-container {
+    text-align: center;
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    margin: 5px 0px;
+  }
+
+  .bs-svc-status-container,
+  .bs-svc-services-container {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    padding: 5px;
+    font-size: 22px;
+
+    .bs-svc-icon {
+      flex-shrink: 0; /* Impede que o ícone seja redimensionado */
+    }
+
+    .bs-svc-text-start {
+      margin-left: 8px;
+    }
+
+    .bs-svc-text-end {
+      margin-left: auto; /* Empurra o elemento para a direita */
+      padding-top: 4px;
+    }
+  }
+
+  .bs-svc-separator {
+    margin: 4px 0px 8px 0px;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+
+  .bs-svc-viewmore-or-book {
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+.lightred {
+  color: #ff5a5a;
+}
+
+.lightgreen {
+  color: #63ff5a;
+}
+
+.yelloworange {
+  color: #ff9500;
+}
+
+.gray {
+  color: #c5c5c9;
+}
+
+.white {
+  color: #f8f8f8;
+}
+
+.small {
+  font-size: 16px;
+}
